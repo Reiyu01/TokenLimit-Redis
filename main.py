@@ -90,6 +90,6 @@ async def chat_endpoint(
 
     # === 第五階段：回傳結果 ===
     return {
-        "reply": f"AI 收到你的訊息：{request.message}",
+        "reply": f"AI 收到你的訊息：{request.messages[0]}",
         "remaining_balance": new_balance
     }
