@@ -5,7 +5,7 @@ url = "http://127.0.0.1:8000/chat"
 headers = {
     "x-api-key": "test_api_key_123"  # 這是我們資料庫裡那個用戶的 Key
 }
-data = {"message": "Hello Redis!"}
+data = {"message": ["Hello Redis!"]}
 
 print("🚀 發送請求...")
 start = time.time()
